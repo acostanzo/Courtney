@@ -7,6 +7,7 @@ A Claude Code plugin marketplace. Home of **claudit** — audit and optimize you
 | Plugin | Problem solved |
 |---|---|
 | [claudit](plugins/claudit) | Audit and optimise your Claude Code config. Caches current Claude Code ecosystem knowledge for any subsequent agent task. |
+| [hermes-tweet](plugins/hermes-tweet) | Install and configure Hermes Tweet, the native Hermes Agent X/Twitter plugin with read-first workflows and approval-gated actions. |
 
 ## Install
 
@@ -15,6 +16,12 @@ Add quickstop as a plugin marketplace, then install claudit:
 ```bash
 /plugin marketplace add acostanzo/quickstop
 /plugin install claudit@quickstop
+```
+
+Install Hermes Tweet guidance:
+
+```bash
+/plugin install hermes-tweet@quickstop
 ```
 
 Or install from a local clone:

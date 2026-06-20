@@ -18,6 +18,19 @@
         "health-check",
         "best-practices"
       ]
+    },
+    {
+      "name": "hermes-tweet",
+      "version": "0.1.6",
+      "description": "Claude skill wrapper for installing and using Hermes Tweet, the native Hermes Agent X/Twitter plugin with read-first workflows and approval-gated actions.",
+      "source": "./plugins/hermes-tweet",
+      "keywords": [
+        "hermes-agent",
+        "twitter",
+        "x",
+        "social-media",
+        "automation"
+      ]
     }
   ]
 }
